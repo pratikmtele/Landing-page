@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1187px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.planning-container {
+  width: 100%;
+  max-width: 1187px;
+  margin: auto;
+}
+
+#get-know {
+  height: 50vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin-top: 100px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .planning-container {
+    margin-top: 100px;
+  }
+
+  #get-know {
+    height: auto;
+  }
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./output.css">
+
+    <!-- font awesome icons cdn link -->
+    <script src="https://kit.fontawesome.com/0a4c0f0fd0.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="font-poppins">
+    <!--------- navbar goes here ------------>
+    <nav id="navbar" class="flex row justify-between md:justify-around">
+        <div class="logo my-3 ml-8 md:ml-0">
+            <h3 class="text-3xl">ZOKA</h3>
+        </div>
+        <div class="menus hidden md:block">
+            <ul class="flex row my-5 gap-5 font-bold">
+                <li class="text-sonicsilver hover:text-black"><a href="#">Home</a></li>
+                <li class="text-sonicsilver hover:text-black"><a href="#">Pages</a></li>
+                <li class="text-sonicsilver hover:text-black"><a href="#">Photography</a></li>
+                <li class="text-sonicsilver hover:text-black"><a href="#">Photoshoots</a></li>
+            </ul>
+        </div>
+        <div class="youtube-btn self-center mr-8 md:mr-0">
+            <button
+                class="p-2 text-voiletblue font-semibold border-2 border-voiletblue rounded-xl text-sm hover:bg-voiletblue hover:text-white "
+                type="button">Youtube<i class="fa-solid fa-play ml-1"></i></button>
+        </div>
+    </nav>
+
+    <!-------- hero section goes here --------->
+    <section id="where-creative" class="container lg:flex lg:flex-row">
+        <div id="creative-1" class="mx-3 lg:mx-0 lg:w-1/2">
+            <h1 class="text-4xl lg:text-8xl font-bold">Where creative process happens</h1>
+            <p class="mt-5 lg:mt-10 font-extralight text-sm w-[12.5rem]">Your creativity, our inspiration Whatever your
+                story, set if free.</p>
+            <button class="bg-voiletblue px-5 py-3 rounded-full text-white text-sm mt-5 lg:mt-8">Get in
+                Touch<i
+                    class="fa-solid fa-chevron-right bg-white rounded-full px-[7px] py-1 text-white ml-1 bg-opacity-30"></i></button>
+        </div>
+        <div id="creative-2" class="mx-3 mt-5 lg:w-1/2">
+            <img src="../images/camera.png" alt="Camera">
+            <div class="grid grid-cols-2 lg:flex lg:flex-row lg:gap-5 mt-5">
+                <img src="../images/camera2.png" alt="Camera" class="lg:w-7/12" style="height: 27vh;">
+                <img src="../images/camera3.png" alt="Camera" class="lg:w-7/12" style="height: 27vh;">
+            </div>
+        </div>
+    </section>
+
+    <!-- get know us section -->
+    <section id="get-know" class="container flex flex-col-reverse lg:flex-row">
+        <div class="mt-5 lg:mt-0 mx-3 lg:mx-0 lg:w-1/2 grid grid-cols-2">
+            <img src="../images/plant.png" alt="leaf" class="lg:w-2/3 lg:h-2/3">
+            <img src="../images/tree.png" alt="tree" class="lg:w-2/3 lg:h-2/3">
+        </div>
+        <div class="mx-3 lg:w-1/2">
+            <p class="text-voiletblue font-bold mb-3">Get to know us</p>
+            <h1 class="text-4xl font-bold lg:text-2.5rem lg:w-2/3 mb-3">Why we make it happens</h1>
+            <p class="w-3/4 lg:w-[290px] text-sm">Your ceremony & reception venues, your vision, your dress, your
+                colours and
+                anything
+                else you would like.
+            </p>
+            <button class="bg-voiletblue px-5 py-3 rounded-full text-white text-sm mt-5 lg:mt-8 mb-1">Get in Touch<i
+                    class="fa-solid fa-chevron-right bg-white rounded-full px-[7px] py-1 text-white ml-1 bg-opacity-30"></i></button>
+        </div>
+    </section>
+
+    <!-- why choose us section -->
+    <section id="choose-us" class="container">
+        <h1 class="text-center text-4xl font-bold mb-10 lg:mb-[100px]">Why choose us</h1>
+        <div class="flex flex-row gap-5 justify-evenly mx-3 lg:mx-0">
+            <div id="gallery" class="flex flex-col items-center">
+                <div id="img"
+                    class="bg-white drop-shadow-lg flex flex-col justify-center rounded-full w-[100px] h-[100px]">
+                    <img src="../images/gallery.png" alt="Camera" class="w-[70px] relative left-4">
+                </div>
+                <h3 class="text-sm font-bold mt-5">Professional editing</h3>
+                <p class="lg:w-2/3 text-center mt-1.5 text-sm">Your creativity our inspiration. What ever your want</p>
+            </div>
+            <div id="gallery" class="flex flex-col items-center">
+                <div id="img"
+                    class="bg-white drop-shadow-lg flex flex-col justify-center rounded-full w-[100px] h-[100px]">
+                    <img src="../images/My Location.png" alt="Camera" class="w-[70px] relative left-4">
+                </div>
+                <h3 class="text-sm font-bold mt-5">Long hour shoots</h3>
+                <p class="lg:w-2/3 text-center mt-1.5 text-sm">Your creativity our inspiration. What ever your want</p>
+            </div>
+            <div id="gallery" class="flex flex-col items-center">
+                <div id="img"
+                    class="bg-white drop-shadow-lg flex flex-col justify-center rounded-full w-[100px] h-[100px]">
+                    <img src="../images/Camera (1).png" alt="Camera" class="w-[70px] relative left-4">
+                </div>
+                <h3 class="text-sm font-bold mt-5 text-center">Extensive equipment</h3>
+                <p class="lg:w-2/3 text-center mt-1.5 text-sm">Your creativity our inspiration. What ever your want</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- equipments and personal projects -->
+    <section id="projects" class="container">
+        <div class="flex flex-col-reverse lg:flex-row mx-3 lg:mx-0">
+            <!-- project gallery -->
+            <div class="lg:w-1/2 mt-5 lg:mt-0">
+                <div class="rounded-r-lg overflow-hidden lg:w-4/5 shadow-xl relative z-50 bg-white">
+                    <div class="bg-cultured flex flex-row gap-2 h-10 justify-end items-center">
+                        <div class="bg-orange px-2 py-2 rounded-full"></div>
+                        <div class="bg-pastelorange px-2 py-2 rounded-full"></div>
+                        <div class="bg-green px-2 py-2 rounded-full mr-5"></div>
+                    </div>
+                    <div id="images" class="p-8 grid grid-cols-4 gap-2">
+                        <img src="../images/project1.png" alt="" class="col-span-2 h-full">
+                        <img src="../images/project2.png" alt="" class="col-span-1 rounded-lg">
+                        <img src="../images/project3.png" alt="" class="col-span-1 rounded-lg">
+                        <img src="../images/project4.png" alt="" class="col-span-1 rounded-lg">
+                        <img src="../images/project5.png" alt="" class="col-span-1 rounded-lg">
+                        <img src="../images/project6.png" alt="" class="col-span-2 rounded-lg">
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2">
+                <h1 class="text-4xl lg:text-2.5rem font-bold lg:w-4/5">Experiments and Personal Projects.</h1>
+                <p class="w-3/4 lg:w-1/2 text-sm mt-5">Your ceremony & reception venues, your vision, your dress, your
+                    colours
+                    and anything else you would like to share with us. I am a Gold Coast and Brisbane.</p>
+            </div>
+        </div>
+    </section>
+    <div id="project-info"
+        class="h-[150px] w-full mt-5 lg:mt-0 lg:relative lg:bottom-32 bg-magnolia flex flex-row justify-center lg:justify-end items-center gap-10">
+        <div class="text-center p-1">
+            <h1 class="text-4xl font-bold">58+</h1>
+            <p class="text-sm">Cute Customers</p>
+        </div>
+        <div class="text-center p-1">
+            <h1 class="text-4xl font-bold">38+</h1>
+            <p class="text-sm">Rewards</p>
+        </div>
+        <div class="text-center p-1 lg:mr-96">
+            <h1 class="text-4xl font-bold">98+</h1>
+            <p class="text-sm">Projects Completed</p>
+        </div>
+    </div>
+
+    <!-- event planning section -->
+    <section class="planning-container lg:mt-12 lg:flex lg:flex-row">
+        <div class="lg:w-1/2 mx-3 lg:mx-0">
+            <h1 class="text-4xl lg:text-2.5rem font-bold lg:w-4/5">Floral Design in a event planning company</h1>
+            <p class="text-sm w-3/4 lg:w-1/2 mt-5">Your ceremony & reception venues, your vision, your dress, your
+                colours
+                and
+                anything else
+                you would like
+                to share with us. I am a Gold Coast and Brisbane.</p>
+            <button class="bg-voiletblue px-5 py-3 rounded-full text-white text-sm mt-8 mb-1">Get in Touch<i
+                    class="fa-solid fa-chevron-right bg-white rounded-full px-[7px] py-1 text-white ml-1 bg-opacity-30"></i></button>
+            <img src="../images/plan1.png" alt="Flower_1" class="rounded-lg w-[200px] lg:w-[260px] mt-16">
+            <h1 class="text-4xl lg:text-2.5rem font-bold mt-5">01<span class="text-sm font-normal">/18</span></h1>
+        </div>
+        <div id="planning-images">
+            <div class="relative flex flex-col lg:flex-row w-full ">
+                <div class="relative left-72 lg:-left-32 lg:top-40 lg:right-32 h-fit w-fit">
+                    <img src="../images/plan2.png" alt="Flower_2"
+                        class="rounded-lg w-[200px] lg:w-[260px] mt-5 lg:mt-16">
+                    <h1 class="text-4xl lg:text-2.5rem font-bold mt-5">02<span class="text-sm font-normal">/18</span>
+                    </h1>
+                </div>
+                <div class="h-fit relative left-3 lg:left-20 w-fit">
+                    <img src="../images/plan3.png" alt="Flower_2"
+                        class="rounded-lg w-[200px] lg:w-[260px] mt-5 lg:mt-16">
+                    <h1 class="text-4xl lg:text-2.5rem font-bold mt-5">03<span class="text-sm font-normal">/18</span>
+                    </h1>
+                </div>
+            </div>
+            <div
+                class="lg:w-2/3 pagination mt-5 mx-3 lg:mt-0 lg:mx-0 lg:relative lg:top-52 lg:left-28 flex flex-row gap-10 justify-center items-center py-3 border-2 border-silversand rounded-lg">
+                <div class="h-0.5 bg-gray-200 w-1/2">
+                    <div class="h-0.5 w-1/2 bg-black "></div>
+                </div>
+                <p class="text-sm cursor-pointer">Next<i
+                        class="fa-solid fa-chevron-right ml-1 text-[10px] text-center"></i>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- work section -->
+    <section id="work" class="container">
+        <h1 class="text-4xl lg:text-2.5rem font-bold mx-3 lg:mx-0">Our Awesome works</h1>
+        <p class="text-sonicsilver mt-5 mx-3 lg:mx-0">See what we shooted</p>
+        <div class="mt-8 mx-3 lg:mx-0">
+            <div class="grid grid-cols-3 gap-5">
+                <img src="../images/work1.png" alt="Work_1">
+                <img src="../images/work2.png" alt="Work_2">
+                <img src="../images/work3.png" alt="Work_3">
+                <img src="../images/work4.png" alt="Work_4">
+                <img src="../images/work5.png" alt="Work_5">
+                <img src="../images/work6.png" alt="Work_6">
+                <img src="../images/work7.png" alt="Work_7">
+                <img src="../images/work8.png" alt="Work_8">
+                <img src="../images/work9.png" alt="Work_9">
+            </div>
+        </div>
+    </section>
+
+    <!-- get started with us -->
+    <section id="get-started" class="container rounded-large bg-violet flex flex-row h-[230px] lg:h-fit">
+        <div class="lg:flex lg:flex-col lg:justify-center lg:items-center">
+            <div class="relative left-9 lg:left-32 mt-5 lg:mt-0">
+                <h1 class="text-3xl lg:text-6xl text-white text-left">Get started with us</h1>
+                <p class="text-white text-sm lg:text-base mt-3 lg:mt-5 lg:w-9/12">Your ceremony & reception venues, your
+                    vision,
+                    your dress,
+                    your
+                    colours and anything else you would like to share with us. </p>
+                <button class="bg-white px-5 py-3 rounded-full text-black text-sm mt-3 lg:mt-8 mb-1">Get in Touch<i
+                        class="fa-solid fa-chevron-right bg-gray-900 rounded-full px-[7px] py-1 text-white ml-1 bg-opacity-30"></i></button>
+            </div>
+        </div>
+        <div class="relative bottom-10 lg:bottom-20 left-0 lg:left-24 h-fit">
+            <img src="../images/sunnyBoy.png" alt="" class="w-fit">
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="footer"
+        class="container lg:flex lg:row lg:justify-between md:justify-between mb-10 items-center text-center">
+        <div class="logo ml-8 my-3 md:ml-0">
+            <h3 class="text-sm">ZOKA © 2022. Crafted by YEV YEV ❤️ </h3>
+        </div>
+        <div class="menus hidden md:block my-3">
+            <ul class="flex row gap-5">
+                <li class="text-sonicsilver font-bold hover:text-black"><a href="#">Home</a></li>
+                <li class="text-sonicsilver font-bold hover:text-black"><a href="#">Pages</a></li>
+                <li class="text-sonicsilver font-bold hover:text-black"><a href="#">Photography</a></li>
+                <li class="text-sonicsilver font-bold hover:text-black"><a href="#">Photoshoots</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
